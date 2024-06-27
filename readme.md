@@ -40,14 +40,21 @@
 ![Image](Images/Distribuição%20Uniforme%20e%20Exponencial.png)
 
 ![Image](Images/Distribuição%20Normal.png)
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+![Image](Images/Itervalo%20de%20Confianca%201.png)
 
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
+![Image](Images/Itervalo%20de%20Confianca%202.png)
+
+![Image](Images/Itervalo%20de%20Confianca%203.png)
+
+![Image](Images/Itervalo%20de%20Confianca%204.png)
+

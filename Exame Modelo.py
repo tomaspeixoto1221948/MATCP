@@ -38,3 +38,40 @@ print(f'{p5:.4f}')
 p6 = stats.norm.cdf(15, 12, 4)
 p6_binom = stats.binom.pmf(36, 55, p6)
 print(f'{p6_binom:.4f}')
+
+p7 = stats.binom.pmf(36, 55, p6)
+print(f'{p7:.4f}')
+
+# P3
+
+beta = -0.7 / np.log(0.11)
+
+p8 = 1 - stats.gamma.cdf(1.5, a = 1, scale = beta)
+p9 = 1 - stats.gamma.cdf(2.3, a = 1, scale = beta)
+print(f'{p9 / p8:.4f}')
+
+p10 = stats.gamma.ppf(0.5, a = 1, scale = beta)
+print(f'{p10:.4f}')
+
+# P4
+
+p11 = stats.norm.cdf(300, 295, 14)
+print(f'{p11:.4f}')
+
+p12 = stats.norm.cdf(0, 330 - 295, np.sqrt(9**2 + 14**2))
+print(f'{p12:.4f}')
+
+mu = 5 * 330 + 5 * 295 + 550
+sigma = (5 * 9**2) + (5 * 14**2)
+print(f'{mu:.4f}')
+print(f'{sigma:.4f}')
+
+p13 = stats.norm.cdf(3700, mu, np.sqrt(sigma))
+print(f'{p13:.4f}')
+
+p14 = stats.binom.cdf(6, 12, 1 - p13)
+print(f'{p14:.4f}')
+
+p15 = stats.binom.pmf(4, 12, 1 - p13)
+print(f'{p15:.4f}')
+

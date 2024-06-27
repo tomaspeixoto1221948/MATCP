@@ -71,10 +71,10 @@ print(f'P3(2.) A probabilidade é {p9 / p10:.4f}')
 q = stats.gamma.ppf(0.5, a = 1, scale = beta)
 print(f'P3(3.) q={q:.4f}')
 
-# P4
+# P4 distribuicão normal
 
 # 1.1
-p11 = stats.norm.cdf(300, 295,14)
+p11 = stats.norm.cdf(300, 295, 14)
 print(f'P4(1.1) A probabilidade é {p11:.4f}')
 
 # 1.2
