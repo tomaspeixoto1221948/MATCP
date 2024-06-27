@@ -1,4 +1,4 @@
-![Image](Images/Desvio Padrão de uma Variável Aleatória.png)
+![Image](Images/Desvio%20Padrão%20de%20uma%20Variável%20Aleatória.png)
 
 ![Image](Images/Variância de uma Variável Aleatória Discreta.png)
 \
