@@ -8,7 +8,6 @@ import numpy as np
 result_1 = integrate.quad(lambda x: x**0.2 * np.exp(-x**0.2),1,1.4)
 valor_lambda = 1 / result_1[0]
 print(f'P1(1.) O resultado do integral é {result_1[0]:.2f} e o valor pretendido é {valor_lambda:.2f}')
-exit(0)
 
 # 2.
 result_2 = integrate.quad(lambda x: valor_lambda * x**0.2 * np.exp(-x**0.2),1,1.2)
@@ -54,7 +53,7 @@ print(f'A probabilidade de esperar menos de 15 minutos é {p6:.4f}')
 p7 = stats.binom.pmf(36, 55, p6)
 print(f'P2(3.) A probabilidade é {p7:.4f}')
 
-# P3
+# P3 distribuicão exponencial
 
 # 1.
 beta = -0.7 / np.log(0.11)

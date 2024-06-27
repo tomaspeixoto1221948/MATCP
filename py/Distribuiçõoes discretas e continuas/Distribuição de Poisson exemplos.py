@@ -23,3 +23,20 @@ print(f'A prob. de não receber qualquer chamada é {p3:.3f}')
 # é P(X30 > 2) = 1 − P(X30 ≤ 2):
 p4 = 1 - stats.poisson.cdf(2, 4.5)
 print(f'A prob. de não receber qualquer chamada é {p4:.3f}')
+
+
+# 1h ∼ Poisson(λ = 4.4)
+# P(X > 6)
+p_1 = stats.poisson.cdf(6, 4.4)
+print(f'P_1 A probabilidade é {p_1:.4f}')
+
+# 4h ∼ Poisson(4 × λ = 4 * 5.4)
+# P(X < 12)
+p_2 = stats.poisson.cdf(11, 4 * 5.4)
+print(f'P_2  A probabilidade é {p_2:.4f}')
+
+# 1h ~ Poisson(4.4)
+# 1h ~ Poisson(5.4)
+# P(10 < X > 15)
+p_3 = stats.poisson.cdf(14, 4.4 + 5.4) - stats.poisson.cdf(10, 4.4 + 5.4)
+print(f'P_3 A probabilidade é {p_3:.4f}')
