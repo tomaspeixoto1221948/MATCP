@@ -37,13 +37,9 @@
 \
 \
 \
-![Image](Images/Distribuição%20Uniforme.png)
+![Image](Images/Distribuição%20Uniforme%20e%20Exponencial.png)
 
-![Image](Images/Distribuição%20Uniforme%20exemplo1.png)
-
-![Image](Images/Distribuição%20Uniforme%20exemplo2.png)
-
-![Image](Images/Distribuição%20Uniforme%20exemplo3.png)
+![Image](Images/Distribuição%20Normal.png)
 
 \
 \
